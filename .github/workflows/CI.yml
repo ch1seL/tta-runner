@@ -12,12 +12,7 @@ on:
         required: true
       description:
         description: 'Description'
-        required: true  
-  
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 0 25 * *'
-     
+        required: true     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
